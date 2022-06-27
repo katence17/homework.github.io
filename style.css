@@ -1,0 +1,269 @@
+html, body{
+    min-height: 100%;
+}
+
+body{
+    margin: auto;
+    padding: 0;
+    font-family: 'Roboto';
+    font-size: 12pt;
+    width: 1100px;
+    background-image: linear-gradient(180deg, #add8e69e, transparent);
+}
+header{
+    overflow: hidden;
+}
+h1, h2, h3{
+    margin: 0;
+    padding: 0;
+    color: #404040;
+}
+.container h2{
+    font-weight: 400;
+    background-color: #72bdff;
+    padding: 3px;
+    text-align: center;
+}
+p, ol, ul{
+    margin-top: 0;
+}
+
+p {
+    line-height: 180%;
+}
+
+ol, ul{
+    padding: 0;
+    list-style: none;
+}
+
+#top-header{
+
+    text-align: center;
+    height: 60px;
+}
+#menu{
+    float: right;
+    display: flex;
+    margin-top: -140px;
+}
+#menu ul{
+    text-align: center;
+    float: right;
+    margin: 0;
+    width: 500px;
+}
+
+#menu li{
+    display: inline-block;
+    padding: 0;
+    font-size: 17px;
+}
+
+#menu li a, #menu li span{
+    display: inline-block;
+    padding: 0em 1.5em;
+    text-decoration: none;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+
+#menu li a{
+
+    color: #000000ab;
+}
+
+#menu li:hover a, #menu li span{
+    background: rgba(255, 255, 255, 0.75);
+    color: #0074D9;
+    border-left: 1px solid #0074D9;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background 0.25s ease-in;
+}
+#logo img{
+    padding: 10px;
+    display: flex;
+}
+#logo{
+    margin: 0;
+}
+#header-image-menu h1{
+    margin-left: 185px;
+}
+#study img{
+    height: 500px;
+}
+#study img:hover {
+    filter: brightness(50%);
+    cursor: pointer;
+}
+.content{
+    margin-top: 8px;
+    float: left;
+    width: 1100px;
+}
+.content .school img{
+     display: inline-block;
+}
+.content .school p{
+    float: right;
+    width: 780px;
+    margin-left: 12px;
+}
+.school{
+    margin-bottom: 10px;
+}
+.col1, .col2{
+    width: 550px;
+}
+.col2{
+    float: right;
+    margin-top: -429px;
+}
+.col2 p{
+    margin-left: 13px;
+}
+.col2 img, .col1 img{
+    margin-left: 110px;
+}
+.container .col1{
+    border-right-style: solid;
+    border-right-color: #CCC;
+    border-right-width: thin;
+}
+.container p{
+    text-align: justify;
+}
+.col1 p{
+    margin-right: 10px;
+}
+.container .col1 a{
+    background-color: #72bdff;
+    text-decoration: none;
+    color: #404040;
+    padding: 7px;
+    font-size: 18px;
+    border-radius: 5px;
+    float: left;
+}
+.container .col1 a:hover, .col2 a:hover{
+    color: white;
+}
+.col2 a{
+    background-color: #72bdff;
+    text-decoration: none;
+    color: #404040;
+    padding: 7px;
+    font-size: 18px;
+    border-radius: 5px;
+    float: left;
+    margin-left: 13px;
+}
+#fr{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: white;
+    margin-top: 25px;
+}
+#fl{
+    color: white;
+    font-size: 13px;
+    text-align: center;
+}
+
+footer{
+    background-image: url("footer.png");
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span {
+    background-color: #0074D9;
+    margin: 10px;
+    font-size: 20px;
+    color: white;
+    padding: 7px;
+    border-radius: 10px;
+}
+ul{
+    list-style-image: url("20x20.png");
+    margin-left: 35px;
+}
+#skillscol2{
+    margin-top: -219px;
+}
+#rome, #barcelona{
+    float: left;
+    margin: 5px;
+}
+#rome img, #prague img, #barcelona img, #paris img{
+    width: 500px;
+}
+#rome a, #prague a, #barcelona a, #paris a{
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-size: 23px;
+    color: #404040;
+}
+#rome a:hover, #prague a:hover, #barcelona a:hover, #paris a:hover{
+    color: #0074D9;
+}
+#prague, #paris {
+    float: right;
+    margin: 5px;
+}
+#cities{
+    text-align: center;
+    margin: 10px;
+    font-weight: 400;
+}
+textarea:focus{
+    outline: 1px solid #0074D9;
+}
+textarea{
+    resize: none;
+}
+#submit{
+    color: white;
+    background-color: #0074D9;
+    border-radius: 5px;
+    width: 60px;
+    border: groove;
+    cursor: pointer;
+}
+#left-div{
+    float: left;
+    height: 400px;
+}
+#left-div h1{
+    margin-top: 200px;
+    margin-left: 100px;
+}
+#left-div p{
+    color: #404040;
+    text-align: center;
+    margin-left: 60px;
+    margin-top: 15px;
+}
+#right-div{
+    float: right;
+    margin-right: 185px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+#submit2{
+    margin-top: 10px;
+    width: fit-content;
+    background-color: #57beff;
+    border-radius: 10px;
+    border: groove;
+    font-size: inherit;
+}
